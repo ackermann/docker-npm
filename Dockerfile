@@ -10,3 +10,4 @@ RUN apk --update add nodejs git build-base libstdc++ make g++ python curl && \
     git checkout $LIBSASS_VERSION && \
     cd .. && SASS_LIBSASS_PATH=/sassc/libsass make && \
     mv bin/sassc /usr/bin/sassc && \
+    npm install -g node-sass@3.8.0
