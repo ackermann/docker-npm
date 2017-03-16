@@ -12,5 +12,5 @@ RUN apk --update add nodejs git build-base libstdc++ make g++ python curl && \
     mv bin/sassc /usr/bin/sassc && \
     npm install -g node-sass@3.8.0
 
-RUN apk add 'py-pip==8.1.2-r0'
+RUN apk add 'py-pip'
 RUN pip install 'docker-compose==1.8.0'
