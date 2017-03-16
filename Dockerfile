@@ -14,3 +14,5 @@ RUN apk --update add nodejs git build-base libstdc++ make g++ python curl && \
 
 RUN apk add 'py-pip'
 RUN pip install 'docker-compose==1.8.0'
+
+RUN npm install -g node-sass
